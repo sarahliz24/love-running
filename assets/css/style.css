@@ -76,7 +76,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -123,7 +123,12 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
 }
 
 #right-about {
@@ -134,8 +139,31 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: rleft;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
